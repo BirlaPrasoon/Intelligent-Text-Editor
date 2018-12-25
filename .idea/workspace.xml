@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fe4fad71-4107-471d-82ae-55573896d3ef" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MOOCTextEditor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/application/AutoSpellingTextArea$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/application/AutoSpellingTextArea$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/application/AutoSpellingTextArea.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/application/EditDistanceDialogController$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/application/EditDistanceDialogController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/application/LaunchClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/application/LoadFileDialogController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/application/MainApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/application/MarkovController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/application/TextProController$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/application/TextProController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/application/application.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/application/view/EditDistanceLayout.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/application/view/LoadFileLayout.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/application/view/MarkovLayout.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/application/view/MarkovOptionsLayout.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/application/view/RootLayout.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/application/view/TextAppLayout.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/document/BasicDocument.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/document/BasicDocumentGrader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/document/Document.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/document/DocumentBenchmarking.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/document/EfficientDocument.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/document/EfficientDocumentGrader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/spelling/AutoComplete.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/spelling/AutoCompleteDictionaryTrie.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/spelling/AutoCompleteDictionaryTrieTester.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/spelling/Dictionary.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/spelling/DictionaryBST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/spelling/DictionaryBSTTester.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/spelling/DictionaryBenchmarking.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/spelling/DictionaryGrader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/spelling/DictionaryHashSet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/spelling/DictionaryLL.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/spelling/DictionaryLLTester.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/spelling/DictionaryLoader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/spelling/NearbyWords.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/spelling/NearbyWordsGraderOne.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/spelling/NearbyWordsGraderTwo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/spelling/Queue$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/spelling/Queue$node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/spelling/Queue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/spelling/SpellingSuggest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/spelling/TrieGrader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/spelling/TrieNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/spelling/WPTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/spelling/WPTreeGrader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/spelling/WPTreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/spelling/WordPath.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/textgen/LLNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/textgen/ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/textgen/MarkovTextGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/textgen/MarkovTextGeneratorGrader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/textgen/MarkovTextGeneratorLoL.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/textgen/MyLinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/textgen/MyLinkedListGrader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/textgen/MyLinkedListTester.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/dict.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/grader_dict.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/warAndPeace.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/words.small.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grader_output/module3.part2.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grader_output/module3part2.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grader_output/module5.part1.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grader_output/module5.part2.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grader_output/module5.part3.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/richtextfx-fat-0.6.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/AutoSpellingTextArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/EditDistanceDialogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/LaunchClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/LoadFileDialogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/MarkovController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/TextProController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/application.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/view/EditDistanceLayout.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/view/LoadFileLayout.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/view/MarkovLayout.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/view/MarkovOptionsLayout.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/view/RootLayout.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/view/TextAppLayout.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/document/BasicDocument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/document/BasicDocumentGrader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/document/Document.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/document/DocumentBenchmarking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/document/EfficientDocument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/document/EfficientDocumentGrader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spelling/AutoComplete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spelling/AutoCompleteDictionaryTrie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spelling/AutoCompleteDictionaryTrieTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spelling/Dictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spelling/DictionaryBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spelling/DictionaryBSTTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spelling/DictionaryBenchmarking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spelling/DictionaryGrader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spelling/DictionaryHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spelling/DictionaryLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spelling/DictionaryLLTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spelling/DictionaryLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spelling/NearbyWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spelling/NearbyWordsGraderOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spelling/NearbyWordsGraderTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spelling/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spelling/SpellingSuggest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spelling/TrieGrader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spelling/TrieNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spelling/WPTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spelling/WPTreeGrader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spelling/WordPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/textgen/MarkovTextGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/textgen/MarkovTextGeneratorGrader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/textgen/MarkovTextGeneratorLoL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/textgen/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/textgen/MyLinkedListGrader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/textgen/MyLinkedListTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/dict.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/dict2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/mod1TestCases.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/mod2TestCases.txt" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/bin/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1256262371">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="8" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/application/MainApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="134" column="4" selection-start-line="134" selection-start-column="4" selection-end-line="134" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/document/BasicDocument.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/document/Document.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="389">
+              <caret line="145" column="8" lean-forward="true" selection-start-line="145" selection-start-column="8" selection-end-line="145" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/document/EfficientDocument.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="141" column="63" selection-start-line="141" selection-start-column="63" selection-end-line="141" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/document/DocumentBenchmarking.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/spelling/AutoCompleteDictionaryTrie.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="349">
+              <caret line="160" column="62" lean-forward="true" selection-start-line="160" selection-start-column="62" selection-end-line="160" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/textgen/MarkovTextGeneratorLoL.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="138" column="39" lean-forward="true" selection-start-line="138" selection-start-column="39" selection-end-line="138" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/document/BasicDocumentGrader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/spelling/AutoCompleteDictionaryTrie.java" />
+        <option value="$PROJECT_DIR$/src/document/EfficientDocument.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="950" />
+    <option name="width" value="980" />
+    <option name="height" value="1035" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MOOCTextEditor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MOOCTextEditor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MOOCTextEditor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MOOCTextEditor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MOOCTextEditor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MOOCTextEditor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MOOCTextEditor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MOOCTextEditor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="document" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MOOCTextEditor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MOOCTextEditor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="textgen" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545762451691" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.EfficientDocument">
+    <configuration name="AutoCompleteDictionaryTrie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spelling.AutoCompleteDictionaryTrie" />
+      <module name="MOOCTextEditor" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spelling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EfficientDocument" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="document.EfficientDocument" />
+      <module name="MOOCTextEditor" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="document.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="application.MainApp" />
+      <module name="MOOCTextEditor" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MarkovTextGeneratorLoL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="textgen.MarkovTextGeneratorLoL" />
+      <module name="MOOCTextEditor" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="textgen.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MainApp" />
+      <item itemvalue="Application.MarkovTextGeneratorLoL" />
+      <item itemvalue="Application.AutoCompleteDictionaryTrie" />
+      <item itemvalue="Application.EfficientDocument" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EfficientDocument" />
+        <item itemvalue="Application.AutoCompleteDictionaryTrie" />
+        <item itemvalue="Application.MarkovTextGeneratorLoL" />
+        <item itemvalue="Application.MainApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe4fad71-4107-471d-82ae-55573896d3ef" name="Default" comment="" />
+      <created>1529177240609</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1529177240609</updated>
+      <workItem from="1545761707002" duration="767000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="767000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Learn" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2536913" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" weight="0.3286119" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/spelling/AutoCompleteDictionaryTrie.java</url>
+          <line>159</line>
+          <properties class="spelling.AutoCompleteDictionaryTrie" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/application/MainApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="134" column="4" selection-start-line="134" selection-start-column="4" selection-end-line="134" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/textgen/MarkovTextGeneratorLoL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="138" column="39" lean-forward="true" selection-start-line="138" selection-start-column="39" selection-end-line="138" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/document/BasicDocumentGrader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spelling/AutoCompleteDictionaryTrie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="160" column="62" lean-forward="true" selection-start-line="160" selection-start-column="62" selection-end-line="160" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/document/BasicDocument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/document/Document.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="145" column="8" lean-forward="true" selection-start-line="145" selection-start-column="8" selection-end-line="145" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/document/EfficientDocument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="141" column="63" selection-start-line="141" selection-start-column="63" selection-end-line="141" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/document/DocumentBenchmarking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>MOOCTextEditor</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
